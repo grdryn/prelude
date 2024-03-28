@@ -128,3 +128,6 @@
         (zenburn-theme . "melpa-stable")
         (zop-to-char . "melpa-stable")
         ))
+
+(provide 'prelude-pinned-packages)
+;;; prelude-pinned-packages.el ends here
