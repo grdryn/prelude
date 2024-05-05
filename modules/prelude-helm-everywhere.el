@@ -32,7 +32,7 @@
 
 ;;; Code:
 (require 'prelude-helm)
-(prelude-require-packages '(helm-descbinds helm-ag))
+(prelude-require-packages '(helm-ag))
 (require 'helm-eshell)
 
 (global-set-key (kbd "M-x") 'helm-M-x)
@@ -60,7 +60,6 @@
 
 (substitute-key-definition 'find-tag 'helm-etags-select global-map)
 
-(helm-descbinds-mode)
 (helm-mode 1)
 
 ;; enable Helm version of Projectile with replacment commands
