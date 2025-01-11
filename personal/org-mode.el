@@ -18,9 +18,9 @@ text and copying to the killring."
 (global-set-key (kbd "<f5>") 'my/copy-id-to-clipboard)
 
 
-(defun org-focus-private() "Set focus on private things."
+(defun org-focus-personal() "Set focus on personal things."
        (interactive)
-       (setq org-agenda-files '("~/org/private.org")))
+       (setq org-agenda-files '("~/org/personal.org")))
 
 (defun org-focus-work() "Set focus on work things."
        (interactive)
@@ -29,7 +29,7 @@ text and copying to the killring."
 (defun org-focus-all() "Set focus on all things."
        (interactive)
        (setq org-agenda-files '("~/org/work.org"
-                                "~/org/private.org")))
+                                ""~/org/personal.org)))
 
 (defun org-reset-checkbox-state-maybe ()
   "Reset all checkboxes in an entry if the `RESET_CHECK_BOXES' property is set"
