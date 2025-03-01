@@ -1,4 +1,5 @@
 ;; https://github.com/dandavison/magit-delta
 
-(use-package magit-delta
-  :hook (magit-mode . magit-delta-mode))
+;; FIXME: it's a bit buggy...
+;; (use-package magit-delta
+;;   :hook (magit-mode . magit-delta-mode))
