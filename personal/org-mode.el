@@ -29,7 +29,7 @@ text and copying to the killring."
 (defun org-focus-all() "Set focus on all things."
        (interactive)
        (setq org-agenda-files '("~/org/work.org"
-                                ""~/org/personal.org)))
+                                "~/org/personal.org")))
 
 (defun org-reset-checkbox-state-maybe ()
   "Reset all checkboxes in an entry if the `RESET_CHECK_BOXES' property is set"
