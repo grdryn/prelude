@@ -3,6 +3,11 @@
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key (kbd "<f6>") 'org-capture)
 
+;; For sunrise/sunset
+(setq calendar-latitude 53.729105)
+(setq calendar-longitude -9.851408)
+(setq calendar-location-name "Louisburgh, IE")
+
 (defun my/copy-id-to-clipboard() "Copy the ID property value
 to killring, if no ID is there then create a new unique ID.
 This function works only in org-mode buffers.
