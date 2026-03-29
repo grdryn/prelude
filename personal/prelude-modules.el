@@ -35,18 +35,18 @@
 ;; (require 'prelude-latex)
 (require 'prelude-lisp) ;; Common setup for Lisp-like languages
 ;; (require 'prelude-literate-programming) ;; Setup for Literate Programming
-(require 'prelude-lsp)
+(require 'prelude-lsp-mode)
 ;; (require 'prelude-lua)
 ;; (require 'prelude-ocaml)
 (require 'prelude-perl)
 (require 'prelude-python)
 (require 'prelude-racket)
 (require 'prelude-ruby)
-(require 'prelude-rust)
-(require 'prelude-scala)
+;; (require 'prelude-rust)
+;; (require 'prelude-scala)
 (require 'prelude-scheme)
 (require 'prelude-shell)
-(require 'prelude-scss)
+;; (require 'prelude-scss)
 (require 'prelude-ts)
 (require 'prelude-web) ;; Emacs mode for web templates
 (require 'prelude-xml)
