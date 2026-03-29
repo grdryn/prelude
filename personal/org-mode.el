@@ -3,6 +3,10 @@
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key (kbd "<f6>") 'org-capture)
 
+
+(setq org-agenda-files '("~/org/personal.org"
+                         "~/org/work.org"))
+
 ;; For sunrise/sunset
 (setq calendar-latitude 53.729105)
 (setq calendar-longitude -9.851408)

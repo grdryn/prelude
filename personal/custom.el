@@ -71,7 +71,6 @@
       ((org-agenda-overriding-header "Planning overview")
        (org-agenda-skip-function
         '(org-agenda-skip-entry-if 'scheduled 'deadline))))))
- '(org-agenda-files '("~/org/personal.org" "~/org/work.org"))
  '(org-agenda-include-diary t)
  '(org-attach-use-inheritance t)
  '(org-capture-templates
